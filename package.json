@@ -2,6 +2,9 @@
   "name": "next-test-app",
   "version": "0.1.0",
   "private": true,
+  "browserslist": [
+    "defaults, safari 13"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,6 +16,7 @@
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.9",
     "next": "^13.0.5-canary.4",
+    "prettier": "^2.7.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.3"
